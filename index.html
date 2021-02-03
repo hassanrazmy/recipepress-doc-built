@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a help document for a WordPress theme named Recipe Press which is a premium item being sold exclusivly on ThemeForest.net">
+    <meta name="author" content="M Hassan Raza">
+    
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Recipe Press Documentation</title>
+    <link href="./css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="./css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="./css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/highlight.css">
+    <link href="css/layout.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap-3.3.7.min.js"></script>
+    <script src="./js/highlight.pack.js"></script>
+    
+      <script src="./js/elasticlunr.min.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '.';
+      var is_top_frame = (window === window.parent);
+        
+        var pageToc = [
+          {title: "Introduction", url: "#_top", children: [
+              {title: "Disclaimer", url: "#disclaimer" },
+              {title: "Rate Us", url: "#rate-us" },
+          ]},
+        ];
+
+    </script>
+    <script src="./js/base.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-36723568-3', 'mkdocs.org');
+        ga('send', 'pageview');
+    </script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+<nav class="navbar wm-page-top-frame">
+  <div class="container-fluid wm-top-container">
+    
+    <div class="wm-top-tool pull-right wm-vcenter">
+      <form class="dropdown wm-vcentered" id="wm-search-form" action="./search.html">
+        
+        <button id="wm-search-show" class="btn btn-sm btn-default" type="submit"
+          ><i class="fa fa-search" aria-hidden="true"></i></button>
+
+        <div class="input-group input-group-sm wm-top-search">
+          <input type="text" name="q" class="form-control" id="mkdocs-search-query" placeholder="Search" autocomplete="off">
+          <span class="input-group-btn" role="search">
+            
+            <button class="btn btn-default dropdown-toggle collapse" data-toggle="dropdown" type="button"><span class="caret"></span></button>
+            <ul id="mkdocs-search-results" class="dropdown-menu dropdown-menu-right"></ul>
+            <button id="wm-search-go" class="btn btn-default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </span>
+        </div>
+      </form>
+    </div>
+
+    
+    <div class="wm-top-tool wm-vcenter pull-right wm-small-left">
+      <button id="wm-toc-button" type="button" class="btn btn-sm btn-default wm-vcentered"><i class="fa fa-th-list" aria-hidden="true"></i></button>
+    </div>
+
+    
+    
+
+    
+    <a href="" class="wm-top-brand wm-top-link wm-vcenter">
+      
+      <div class="wm-top-title">
+        Recipe Press Documentation<br>
+        
+      </div>
+    </a>
+  </div>
+</nav>
+
+  <div id="main-content" class="wm-page-top-frame">
+    
+<nav class="wm-toc-pane">
+  
+  <ul class="wm-toctree">
+        <li class="wm-toc-li wm-toc-lev1 "><a href="" class="wm-article-link wm-toc-text">Introduction</a>
+</li>
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Basic Setup</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="basic-setup/install-theme/" class="wm-article-link wm-toc-text">Install Theme</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="basic-setup/import-demo/" class="wm-article-link wm-toc-text">Import Demo</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Home Page</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="home-page/home-blog-pages/" class="wm-article-link wm-toc-text">Home & Blog Page Setup</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="home-page/header-theme-options/" class="wm-article-link wm-toc-text">Header Theme Options</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="home-page/sliders/" class="wm-article-link wm-toc-text">Slider</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="home-page/layout/" class="wm-article-link wm-toc-text">Layout</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="home-page/whats-hot/" class="wm-article-link wm-toc-text">Whats Hot</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="home-page/chefs/" class="wm-article-link wm-toc-text">Chefs</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="home-page/latest-news/" class="wm-article-link wm-toc-text">Latest News</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="home-page/big-banner/" class="wm-article-link wm-toc-text">Big Banner</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="home-page/special-recipe/" class="wm-article-link wm-toc-text">Special Recipe</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="home-page/corner-images/" class="wm-article-link wm-toc-text">Corner Images</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Creating Pages</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="creating-pages/recipes-listing/" class="wm-article-link wm-toc-text">Recipes Listing</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="creating-pages/chefs-listing/" class="wm-article-link wm-toc-text">Chefs Listing</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="creating-pages/advanced-search/" class="wm-article-link wm-toc-text">Advanced Search</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="creating-pages/submit-recipe/" class="wm-article-link wm-toc-text">Submit Recipe</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="creating-pages/contact-page/" class="wm-article-link wm-toc-text">Contact Page</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Adding Content</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="adding-contents/post/" class="wm-article-link wm-toc-text">News Post</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="adding-contents/recipe/" class="wm-article-link wm-toc-text">Recipe</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="adding-contents/chef/" class="wm-article-link wm-toc-text">Chef</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Theme Options</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="theme-options/header-section/" class="wm-article-link wm-toc-text">Header</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="theme-options/home-sections/" class="wm-article-link wm-toc-text">Home</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="theme-options/search/" class="wm-article-link wm-toc-text">Advanced Search</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="theme-options/blog-section/" class="wm-article-link wm-toc-text">Blog</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="theme-options/recipe-section/" class="wm-article-link wm-toc-text">Recipe</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="theme-options/chef/" class="wm-article-link wm-toc-text">Chef</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="theme-options/members/" class="wm-article-link wm-toc-text">Members</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="theme-options/general/" class="wm-article-link wm-toc-text">General</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="theme-options/footer/" class="wm-article-link wm-toc-text">Footer</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="theme-options/styles/" class="wm-article-link wm-toc-text">Styles</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Widgets</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="widgets/tabs/" class="wm-article-link wm-toc-text">Recipe Tabs</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="widgets/weekly-special/" class="wm-article-link wm-toc-text">Weekly Special</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="widgets/measurement/" class="wm-article-link wm-toc-text">Measurement</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="widgets/recent-posts/" class="wm-article-link wm-toc-text">Recent Posts/Recipes</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="widgets/timer/" class="wm-article-link wm-toc-text">Countdown Timer</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="widgets/address/" class="wm-article-link wm-toc-text">Address</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Shortcodes</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="shortcodes/columns/" class="wm-article-link wm-toc-text">Columns</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="shortcodes/tabs-accordion/" class="wm-article-link wm-toc-text">Tabs & Accordion</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="shortcodes/alerts/" class="wm-article-link wm-toc-text">Alerts</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="shortcodes/headings-buttons/" class="wm-article-link wm-toc-text">Headings & Buttons</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Other Settings</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="other/recipe-type-settings/" class="wm-article-link wm-toc-text">Recipe Types</a>
+</li>
+  </ul>
+</li>
+
+        <li class="wm-toc-li wm-toc-lev1 wm-toc-opener"><span class="wm-toc-text">Customizing Theme</span>
+</li>
+<li class="wm-toc-li-nested collapse">
+  <ul class="wm-toctree">
+      <li class="wm-toc-li wm-toc-lev2 "><a href="other/translations/" class="wm-article-link wm-toc-text">Translation</a>
+</li>
+      <li class="wm-toc-li wm-toc-lev2 "><a href="other/customize/" class="wm-article-link wm-toc-text">Customization</a>
+</li>
+  </ul>
+</li>
+
+  </ul>
+</nav>
+
+    <div class="wm-content-pane">
+      <iframe class="wm-article" name="article"></iframe>
+    </div>
+  </div>
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="basic-setup/install-theme/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="basic-setup/install-theme/" class="btn btn-xs btn-link">
+        Install Theme
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="introduction">Introduction</h1>
+<p>This documentation is last updated on 3 February 2021.</p>
+<p>Thank you for purchasing Recipe Press WordPress Theme. If you have any question that is beyond the scope of this documentation, Feel free to send me an email</p>
+<blockquote>
+<h4 id="disclaimer">Disclaimer</h4>
+<p>We offer limited support for our themes. We only provide support for theme's core features. We cannot guarantee that this theme will work properly with all third-party plugins and server environments. If you plan on adding numerous plugins to this theme then please note, We cannot facilitate support for any conflicts that might arise with this theme's default functionality. The RecipePress WordPress theme is presented as it is.</p>
+</blockquote>
+<p>&nbsp;</p>
+<h4 id="rate-us">Rate Us</h4>
+<p>If you like this theme, Kindly support us by rating this theme with 5 stars.</p>
+<p><img alt="(Screenshot)" src="images/how-to-rate-theme.png" /></p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="basic-setup/install-theme/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="basic-setup/install-theme/" class="btn btn-xs btn-link">
+        Install Theme
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content"><p>Copyrights 2021. All rights reserved by InspiryThemes.</p>
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>
+<!--
+MkDocs version : 1.0.4
+Build Date UTC : 2021-02-03 13:32:15
+-->

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="M Hassan Raza">
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Install Theme - Recipe Press Documentation</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <link href="../../css/layout.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Install RecipePress Theme", url: "#_top", children: [
+              {title: "Install Theme Via WordPress Dashboard", url: "#install-theme-via-wordpress-dashboard" },
+              {title: "Install Theme Via FTP", url: "#install-theme-via-ftp" },
+              {title: "Install Required Plugins", url: "#install-required-plugins" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-36723568-3', 'mkdocs.org');
+        ga('send', 'pageview');
+    </script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../import-demo/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../import-demo/" class="btn btn-xs btn-link">
+        Import Demo
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../.." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../.." class="btn btn-xs btn-link">
+        Introduction
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="install-recipepress-theme">Install RecipePress Theme</h1>
+<p>In start, You must have a working version of WordPress already installed. For information in regard to installing the WordPress CMS, please see the WordPress Codex <a href="http://codex.wordpress.org/Installing_WordPress">Installing WordPress</a></p>
+<p>Once you have a working version of WordPress, you need to download All files and documentation from themeforest and extract the downloaded zip to get various files including inspiry-recipepress-theme.zip.</p>
+<h2 id="install-theme-via-wordpress-dashboard">Install Theme Via WordPress Dashboard</h2>
+<p>1 - Go to 'Appearance &gt; Themes' section</p>
+<p>2 - Click 'Add New' and select the 'Upload Theme' option</p>
+<p>&nbsp;
+<img alt="(Screenshot)" src="../../images/install/1.jpg" /></p>
+<p>&nbsp;
+<img alt="(Screenshot)" src="../../images/install/2.jpg" />
+&nbsp;</p>
+<p>3 - Choose the <strong>inspiry-recipe-press.zip</strong> file and press 'Install Now'
+&nbsp;</p>
+<p><img alt="(Screenshot)" src="../../images/install/3.jpg" />
+&nbsp;</p>
+<p>4 - Once the theme is uploaded you need to go back to themes page without activating it as it is recommended to use the <strong>child theme</strong> and now we will upload it.
+&nbsp;</p>
+<p><img alt="(Screenshot)" src="../../images/install/4.jpg" />
+&nbsp;</p>
+<p>5 - Follow step 2 again and Choose the <strong>inspiry-recipe-press-child.zip</strong> file and press 'Install Now'
+&nbsp;</p>
+<p><img alt="(Screenshot)" src="../../images/install/5.jpg" />
+&nbsp;</p>
+<p>6 - Once the child theme is uploaded you can activate it.
+&nbsp;</p>
+<p><img alt="(Screenshot)" src="../../images/install/6.jpg" />
+&nbsp;</p>
+<p>7 - Activating the theme will take you to the themes page.
+&nbsp;</p>
+<blockquote>
+<p>if you face any problem during upload through dashboard, please upload the theme using FTP as guided below.</p>
+</blockquote>
+<h2 id="install-theme-via-ftp">Install Theme Via FTP</h2>
+<ol>
+<li>Access your hosting server using an FTP client like <a href="https://filezilla-project.org/">FileZilla</a></li>
+<li>Go to the 'wp-content/themes' folder of your WordPress installation</li>
+<li>Extract the <strong>inspiry-recipepress-theme.zip</strong> file and put the <strong>inspiry-recipepress-theme</strong> folder in 'wp-content/themes/' folder</li>
+<li>After that extract the <strong>inspiry-recipepress-child.zip</strong> file and put the <strong>inspiry-recipepress-child</strong> folder in 'wp-content/themes/' folder</li>
+<li>Go to 'WordPress Dashboard &gt; Appearance &gt; Themes' section to activate the Mixer child theme</li>
+<li>Activating the theme will take you to the themes page.</li>
+</ol>
+<h2 id="install-required-plugins">Install Required Plugins</h2>
+<p>1 - After you have installed and activated the RecipePress child theme. Go to <strong>Appearance &gt; Themes</strong> there'll be a message of required &amp; recommended plugins at the top of the WordPress dashboard.
+&nbsp;</p>
+<p><img alt="(Screenshot)" src="../../images/install/7.jpg" />
+&nbsp;</p>
+<p>2 - Click on <strong>Begin Installing Plugins</strong> and it will take you to <strong>Appearance &gt; Install Plugins.</strong></p>
+<blockquote>
+<p><strong>Note:</strong> You must have installed required Plugins. Recommended plugins are optional.
+&nbsp;</p>
+</blockquote>
+<p><img alt="(Screenshot)" src="../../images/install/8.jpg" />
+&nbsp;</p>
+<p>3 - After installation, you will view a screen like below, Return to required plugins installer.
+&nbsp;</p>
+<p><img alt="(Screenshot)" src="../../images/install/10.jpg" />
+&nbsp;</p>
+<p>4 - Now <strong>Activate</strong> all the plugins as demonstrated in the screenshot given below.
+&nbsp;</p>
+<p><img alt="(Screenshot)" src="../../images/install/11.jpg" />
+&nbsp;</p>
+<p>5 - Once all these plugins are activated. The next step is to <strong>Import Demo Contents.</strong></p>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../import-demo/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../import-demo/" class="btn btn-xs btn-link">
+        Import Demo
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../.." class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../.." class="btn btn-xs btn-link">
+        Introduction
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="container-fluid wm-page-content"><p>Copyrights 2021. All rights reserved by InspiryThemes.</p>
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+.wm-page-content {
+    max-width: 1070px;
+}
+
+.navbar {
+    background-color: #6ebe3b;
+}
+
+.wm-toc-li.wm-current,
+.wm-toc-li.wm-current:hover {
+    background-color: #6ebe3b;
+}
+
+body > footer p:last-of-type {
+    display: none;
+}
+
+body p {
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.wm-page-content h1 {
+    margin-bottom: 25px;
+}
+
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    font-weight: bold;
+}
